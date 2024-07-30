@@ -22,15 +22,15 @@
                 <p style="font-weight: 600; font-size: 28px; margin-left:10px">沪外徒步</p>
               </el-menu-item>
               <div class="flex-grow"/>
-              <el-menu-item index="/recently">最近活动</el-menu-item>
-              <el-menu-item index="/hot">热门路线</el-menu-item>
+              <el-menu-item index="/activity">活动查询</el-menu-item>
+              <el-menu-item index="/recommend">推荐</el-menu-item>
             </el-menu>
           </div>
       </el-header>
       <el-main>
         <router-view></router-view>
       </el-main>
-<!--      <el-footer>Footer</el-footer>-->
+      <el-footer>Footer</el-footer>
     </el-container>
   </div>
 </template>
